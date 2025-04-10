@@ -1,17 +1,17 @@
 import { useState } from 'react';
-import { FaDownload } from 'react-icons/fa'; // Importa los íconos
+import { FaDownload } from 'react-icons/fa';
 import { FaLinkedin } from "react-icons/fa6";
 import introPic from '../../../public/images/perfil_1.jpeg';
-import cvFile from '../../../public/pdfFiles/CV_Ana_Belen_Jimenez_Pajuelo.pdf'; // Asegúrate de tener el archivo PDF
+import cvFile from '../../../public/pdfFiles/CV_Ana_Belen_Jimenez_Pajuelo.pdf';
 
 const Introduction = () => {
   const [copied, setCopied] = useState(false);
   
   const handleCopyEmail = () => {
-    const email = 'anabelen@email.com'; // Cambia este correo por el que quieras
+    const email = 'anabjipa@hotmail.com';
     navigator.clipboard.writeText(email).then(() => {
       setCopied(true);
-      setTimeout(() => setCopied(false), 2000); // Mensaje de copia temporal
+      setTimeout(() => setCopied(false), 2000);
     });
   };
 
@@ -28,7 +28,6 @@ const Introduction = () => {
           Graduada en Finanzas y Contabilidad con más de 8 años trabajando en contabilidad y gestión financiera. Emprendedora y creadora de PARANØLVIDAR, empresa organizadora de bodas y eventos.
         </p>
 
-        {/* Botón de contacto */}
         <button
           onClick={handleCopyEmail}
           className="cursor-pointer bg-[#BD9C86] text-white font-bold py-2 px-6 rounded-lg shadow-md hover:bg-[#a6856d] transition duration-300 mb-4"
@@ -52,7 +51,6 @@ const Introduction = () => {
             <FaLinkedin className="mr-2" /> LinkedIn
           </a>
 
-          {/* Descargar CV Button */}
           <a
             href={cvFile}
             target="_blank"
@@ -64,7 +62,6 @@ const Introduction = () => {
         </div>
       </section>
 
-      {/* Imagen de perfil */}
       <div className="relative w-60 h-60 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden mt-10 md:mt-0 md:ml-10">
         <img src={introPic} alt="Perfil Ana Belén" className="w-full h-full object-cover" />
       </div>

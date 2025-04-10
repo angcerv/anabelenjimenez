@@ -10,29 +10,21 @@ interface ExperienceProps {
 const ExperienceCard: React.FC<ExperienceProps> = ({ title, place, date, description }) => {
   return (
     <div className="max-w-xl mx-auto bg-white p-4 rounded-lg shadow-lg border-2 border-transparent hover:border-[#7c7f58] transition-all duration-300 ease-in-out">
-      {/* Contenedor principal */}
       <div className="flex">
-        {/* Línea de tiempo a la izquierda */}
         <div className="w-2 bg-[#7c7f58] mr-4 relative">
           <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-2 h-2 rounded-full bg-white"></div>
         </div>
-
-        {/* Información de la tarjeta */}
         <div className="flex-1">
-          {/* Título centrado */}
           <div className="flex justify-center bg-[#7c7f58] p-2 rounded-lg mb-4">
             <h2 className="font-outfit text-lg font-semibold text-white">{title}</h2>
           </div>
 
-          {/* Información (fecha | institución) */}
           <div className="flex mb-4 text-gray-700">
-            {/* Fecha con icono */}
             <div className="flex text-sm font-bold">
               <FaCalendarAlt className="text-[#7c7f58] text-md mr-2" />
               <p>{date}</p>
             </div>
 
-            {/* Separador y título de la experiencia */}
             <div className="flex text-sm font-bold">
               <span className="mx-4 text-[#7c7f58]">|</span>
               <FaBriefcase className="text-[#7c7f58] text-xl mr-2" />
@@ -40,7 +32,6 @@ const ExperienceCard: React.FC<ExperienceProps> = ({ title, place, date, descrip
             </div>
           </div>
 
-          {/* Descripción */}
           <p className="font-outfit text-gray-500 text-sm">{description}</p>
         </div>
       </div>

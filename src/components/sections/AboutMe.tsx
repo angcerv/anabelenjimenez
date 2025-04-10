@@ -1,4 +1,4 @@
-import sign from '../../../public/images/sign.png'; // Asegúrate de que la ruta de la firma es correcta
+import sign from '../../../public/images/sign.png';
 
 const AboutMe = () => {
     return (

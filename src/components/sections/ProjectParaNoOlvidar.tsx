@@ -12,23 +12,18 @@ const ProjectParaNoOlvidar: React.FC = () => {
       <div className="max-w-5xl mx-auto">
         <h2 className="text-3xl font-bold text-center text-[#BD9C86] mb-6">PARANØLVIDAR</h2>
         
-        {/* Introducción */}
         <p className="text-lg text-center mb-10">
           "PARANØLVIDAR" es una empresa dedicada a la organización de bodas y eventos. Nos especializamos en crear momentos únicos y personalizados para cada cliente, asegurándonos de que cada detalle sea perfecto. Desde la planificación hasta la ejecución, nos encargamos de todo para que tú solo te preocupes de disfrutar.
         </p>
 
-        {/* Fila de imágenes */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           <img src={ev1} alt="Evento 1" className="w-full h-auto rounded-lg shadow-lg transform duration-200 hover:scale-102" />
           <img src={ev2} alt="Evento 2" className="w-full h-auto rounded-lg shadow-lg transform duration-200 hover:scale-102" />
           <img src={ev3} alt="Evento 3" className="w-full h-auto rounded-lg shadow-lg transform duration-200 hover:scale-102" />
           <img src={ev4} alt="Evento 4" className="w-full h-auto rounded-lg shadow-lg transform duration-200 hover:scale-102" />
         </div>
-
-        {/* Enlace a Instagram */}
         <div className="flex flex-col items-center justify-center gap-4 mt-7">
 
-          {/* Botón para visitar el sitio web */}
           <a
             href="https://paranolvidar.com"
             target="_blank"
@@ -43,7 +38,7 @@ const ProjectParaNoOlvidar: React.FC = () => {
               Síguenos en:
             </p>
             <a
-              href="https://www.instagram.com/paranovlvidar" 
+              href="https://www.instagram.com/paranolvidar_?igsh=NnFtc29neGVpYXJw" 
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center text-white font-semibold text-xs px-3 py-1 rounded-lg transition-all duration-200 ease-in-out transform hover:scale-102"
