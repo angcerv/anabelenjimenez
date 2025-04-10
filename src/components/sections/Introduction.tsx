@@ -35,29 +35,27 @@ const Introduction = () => {
           {copied ? '¡Correo copiado!' : '¡Hablemos!'}
         </button>
 
-        {/* Texto y botones de LinkedIn y descarga de CV */}
         <div className="flex flex-wrap items-center gap-4 mt-7 justify-center md:justify-start">
-          <p className="text-[#333] text-md">
-            Echa un vistazo a:
-          </p>
+          <p className="text-[#333] text-md">Echa un vistazo a:</p>
 
-          {/* LinkedIn Button */}
           <a
             href="https://www.linkedin.com/in/ana-belén-jiménez-pajuelo-157376129/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center border-2 border-[#0077b5] text-[#0077b5] font-bold text-xs py-2 px-4 rounded-lg shadow-md hover:text-[#005f8b] transition duration-100 transform hover:scale-102 active:scale-98"
+            className="flex items-center justify-center border-2 border-[#0077b5] text-[#0077b5] font-bold text-md md:text-xs py-2 px-3 rounded-lg shadow-md hover:text-[#005f8b] transition duration-100 transform hover:scale-102 active:scale-98"
           >
-            <FaLinkedin className="mr-2" /> LinkedIn
+            <FaLinkedin className="mr-0 md:mr-2" />
+            <span className="hidden md:inline">LinkedIn</span>
           </a>
 
           <a
             href={cvFile}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center border-2 border-[#BD9C86] text-[#BD9C86] text-xs font-bold py-2 px-4 rounded-lg shadow-md hover:text-[#a0806a] transition duration-100 hover:scale-102 active:scale-98"
+            className="flex items-center justify-center border-2 border-[#BD9C86] text-[#BD9C86] text-xs font-bold py-2 px-3 rounded-lg shadow-md hover:text-[#a0806a] transition duration-100 hover:scale-102 active:scale-98"
           >
-            <FaDownload className="mr-2" /> Descargar mi CV
+            <FaDownload className="mr-0 md:mr-2" />
+            <span className="ml-1 md:ml-0">CV</span>
           </a>
         </div>
       </section>
