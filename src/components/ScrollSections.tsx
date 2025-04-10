@@ -56,7 +56,7 @@ const ScrollSections = () => {
             <button
               key={id}
               onClick={() => handleNavClick(id)}
-              className={`hover:text-[#BD9C86] transition-colors font-semibold cursor-pointer ${
+              className={`hover:text-[#BD9C86] transition-colors font-semibold cursor-pointer active:text-[#a0806a] active:scale-98 ${
                 activeSection === id ? 'text-[#BD9C86]' : ''
               }`}
             >

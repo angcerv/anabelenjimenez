@@ -30,7 +30,7 @@ const Introduction = () => {
 
         <button
           onClick={handleCopyEmail}
-          className="cursor-pointer bg-[#BD9C86] text-white font-bold py-2 px-6 rounded-lg shadow-md hover:bg-[#a6856d] transition duration-300 mb-4"
+          className="cursor-pointer bg-[#BD9C86] text-white font-bold py-2 px-6 rounded-lg shadow-md hover:bg-[#a6856d] transition duration-200 mb-4 hover:scale-102 active:scale-98"
         >
           {copied ? '¡Correo copiado!' : '¡Hablemos!'}
         </button>
@@ -46,7 +46,7 @@ const Introduction = () => {
             href="https://www.linkedin.com/in/ana-belén-jiménez-pajuelo-157376129/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center border-2 border-[#0077b5] text-[#0077b5] font-bold text-xs py-2 px-4 rounded-lg shadow-md hover:text-[#005f8b] transition duration-200 transform hover:scale-102"
+            className="flex items-center border-2 border-[#0077b5] text-[#0077b5] font-bold text-xs py-2 px-4 rounded-lg shadow-md hover:text-[#005f8b] transition duration-100 transform hover:scale-102 active:scale-98"
           >
             <FaLinkedin className="mr-2" /> LinkedIn
           </a>
@@ -55,7 +55,7 @@ const Introduction = () => {
             href={cvFile}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center border-2 border-[#BD9C86] text-[#BD9C86] text-xs font-bold py-2 px-4 rounded-lg shadow-md hover:text-[#a0806a] transition duration-200"
+            className="flex items-center border-2 border-[#BD9C86] text-[#BD9C86] text-xs font-bold py-2 px-4 rounded-lg shadow-md hover:text-[#a0806a] transition duration-100 hover:scale-102 active:scale-98"
           >
             <FaDownload className="mr-2" /> Descargar mi CV
           </a>

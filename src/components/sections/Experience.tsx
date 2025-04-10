@@ -12,7 +12,7 @@ const ExperienceCard: React.FC<ExperienceProps> = ({ title, place, date, descrip
     <div className="max-w-xl mx-auto bg-white p-4 rounded-lg shadow-lg border-2 border-transparent hover:border-[#7c7f58] transition-all duration-300 ease-in-out">
       <div className="flex flex-col md:flex-row">
         <div className="hidden md:block w-2 bg-[#7c7f58] mr-4 md:relative md:w-3 md:mr-6">
-          <div className="absolute top-3 left-1/2 transform -translate-x-1/2 w-2 h-2 rounded-full bg-white md:w-3 md:h-3"></div>
+          <div className="absolute top-4 left-1/2 transform -translate-x-1/2 w-2 h-2 rounded-full bg-white md:w-3 md:h-3"></div>
         </div>
         <div className="flex-1">
           <div className="flex justify-center bg-[#7c7f58] p-2 rounded-lg mb-4">

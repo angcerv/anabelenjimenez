@@ -63,6 +63,12 @@ const Education: React.FC = () => {
         </div>
 
         <div className="space-y-8 lg:space-y-6">
+        <EducationCard
+            title="Máster en Análisis Financiero"
+            date="2025-Presente"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam dignissim elementum. Maecenas a ex tellus."
+            institution="Universidad de Sevilla"
+          />
           <EducationCard
             title="Grado en Finanzas y Contabilidad"
             date="2010-2015"
@@ -172,7 +178,7 @@ const Education: React.FC = () => {
             </AnimatePresence>
 
             <button
-              className="cursor-pointer text-white bg-[#BD9C86] px-4 py-2 rounded-full mt-4 hover:bg-[#9A7A62] transition duration-300"
+              className="cursor-pointer text-white bg-[#BD9C86] px-4 py-2 rounded-full mt-4 hover:bg-[#9A7A62] transition duration-100 active:scale-98"
               onClick={() => setShowMore(!showMore)}
             >
               {showMore ? 'Ver menos' : 'Ver más'}
