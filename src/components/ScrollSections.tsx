@@ -1,4 +1,4 @@
-import  { useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import Introduction from './sections/Introduction';
@@ -45,7 +45,7 @@ const ScrollSections = () => {
   return (
     <div className="font-outfit w-full bg-[#F2F1F0] text-[#333]">
       <header className="fixed top-0 left-0 w-full bg-[#F2F1F0] shadow-md z-50">
-        <nav className="flex justify-center space-x-8 py-4">
+        <nav className="flex justify-center space-x-8 py-4 flex-wrap">
           {[
             ['intro', 'Inicio'],
             ['about', 'Sobre mí'],
@@ -66,7 +66,7 @@ const ScrollSections = () => {
         </nav>
       </header>
 
-      <main className="pt-24 space-y-24 px-6 md:px-16 lg:px-32">
+      <main className="pt-24 space-y-24 px-6 sm:px-12 md:px-16 lg:px-32">
         <motion.section id="intro" ref={introRef} className="scroll-mt-24" {...sectionMotionProps('intro', introInView)}>
           <Introduction />
         </motion.section>

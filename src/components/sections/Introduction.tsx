@@ -16,7 +16,7 @@ const Introduction = () => {
   };
 
   return (
-    <div className="font-outfit flex items-center justify-center mt-6 py-6 w-full">
+    <div className="font-outfit flex flex-col md:flex-row items-center justify-center mt-6 py-6 w-full">
       <section className="text-center md:text-left md:w-1/2">
         <h1 className="text-[#BD9C86] text-4xl font-bold leading-tight mb-4">
           Ana Belén Jiménez Pajuelo
@@ -36,14 +36,14 @@ const Introduction = () => {
         </button>
 
         {/* Texto y botones de LinkedIn y descarga de CV */}
-        <div className="flex items-center gap-4 mt-7">
+        <div className="flex flex-wrap items-center gap-4 mt-7 justify-center md:justify-start">
           <p className="text-[#333] text-md">
             Echa un vistazo a:
           </p>
 
           {/* LinkedIn Button */}
           <a
-            href="https://www.linkedin.com/in/ana-belen-jimenez-pajuelo/"
+            href="https://www.linkedin.com/in/ana-belén-jiménez-pajuelo-157376129/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center border-2 border-[#0077b5] text-[#0077b5] font-bold text-xs py-2 px-4 rounded-lg shadow-md hover:text-[#005f8b] transition duration-200 transform hover:scale-102"
