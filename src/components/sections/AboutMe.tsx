@@ -9,11 +9,11 @@ const AboutMe = () => {
         </p>
 
         <p className="font-dancing text-gray-800 text-md md:text-xl md:max-w-2xl mx-auto leading-relaxed mb-6">
-          Además, soy la creadora de PARANØLVIDAR, una empresa de organización de bodas y eventos a la que le he dedicado todo mi corazón, porque es algo que realmente me apasiona.
+            Además, soy la creadora de PARANØLVIDAR, una empresa de organización de bodas y eventos a la que le he dedicado todo mi esfuerzo, al ser también otro sector que me apasiona mucho. La mezcla de ambos hace que tenga diferentes enfoques y adaptabilidad.
         </p>
 
         <p className="font-dancing text-gray-800 text-md md:text-xl md:max-w-2xl mx-auto leading-relaxed mb-6">
-          Si estás interesado en mis servicios, no dudes en contactarme. ¡Estaré encantada de ayudarte!
+            Siempre que se trate de alguno de ellos, no dudes en contactar conmigo.¡Estaré encantada de ayudarte!
         </p>
 
         <div className="mt-4">

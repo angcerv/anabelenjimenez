@@ -48,13 +48,13 @@ const Experience: React.FC = () => {
           title="Controller Finance"
           place="LEAN FINANCE, S.L."
           date="2025-Presente"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam dignissim elementum. Maecenas a ex tellus."
+          description="Ayudamos a Startups y Pymes en llevar un control del área financiera, toma de decisiones estratégicas y ahorro en costes."
         />
         <ExperienceCard
           title="Departamento de nudos (contabilidad)"
           place="Asset Management"
           date="2024-2025"
-          description="Trabajando en la gestión de activos y contabilidad dentro del departamento de nudos."
+          description="Responsable de la contabilidad para un grupo de empresas, que abarcan diferentes sectores, desde la educación hasta una agencia de viajes."
         />
         <ExperienceCard
           title="Wedding Planner y Event Designer"

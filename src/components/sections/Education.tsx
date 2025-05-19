@@ -66,8 +66,8 @@ const Education: React.FC = () => {
         <EducationCard
             title="Máster en Análisis Financiero"
             date="2025-Presente"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam dignissim elementum. Maecenas a ex tellus."
-            institution="Universidad de Sevilla"
+            description="Máster en Análisis Financiero y Presupuestario Empresarial más Derecho Tributario y Financiero."
+            institution="Educa Business School"
           />
           <EducationCard
             title="Grado en Finanzas y Contabilidad"
